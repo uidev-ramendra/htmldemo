@@ -1,0 +1,214 @@
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>product return</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<script src="js/site.js"></script>
+	</head>
+	<body>
+	<div class="wrapper account-return-add">
+		<!-- breadcrumb starts -->
+		<div class="breadcrumbs">
+			<div class="container">
+			  <div class="row">
+				<div class="col-xs-12">
+				  <ul>
+					<li>                            
+						<a href="#">Home</a>
+					 </li>
+					<li> <span>/</span>                            
+						<a href="#">Account</a>
+					 </li>
+					<li> <span>/</span>                            
+						<strong>Product Returns</strong>            
+					</li>           
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		</div> 
+		<!-- breadcrumb ends -->
+	<div class="main-container col2-right-layout">
+		<div class="main container">
+			<div class="row">                
+			 <div id="content" class="col-sm-10">
+			   <div class="col-main">
+				  <div class="my-account">
+						<div class="page-title">
+							<h2> Product Returns</h2>
+						  </div>
+				  <p>Please complete the form below to request an RMA number.</p>
+				  <form action="#" method="post" class="form-horizontal">
+					<fieldset>
+					  <legend>Order Information</legend>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label" for="input-firstname">First Name</label>
+						<div class="col-sm-10">
+						  <input type="text" name="firstname" value="" placeholder="First Name" id="input-firstname" class="form-control">
+						</div>
+					  </div>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label" for="input-lastname">Last Name</label>
+						<div class="col-sm-10">
+						  <input type="text" name="lastname" value="" placeholder="Last Name" id="input-lastname" class="form-control">
+						</div>
+					  </div>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label" for="input-email">E-Mail</label>
+						<div class="col-sm-10">
+						  <input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+									  </div>
+					  </div>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label" for="input-telephone">Telephone</label>
+						<div class="col-sm-10">
+						  <input type="text" name="telephone" value="" placeholder="Telephone" id="input-telephone" class="form-control">
+									  </div>
+					  </div>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label" for="input-order-id">Order ID</label>
+						<div class="col-sm-10">
+						  <input type="text" name="order_id" value="" placeholder="Order ID" id="input-order-id" class="form-control">
+									  </div>
+					  </div>
+					  <div class="form-group">
+						<label class="col-sm-2 control-label" for="input-date-ordered">Order Date</label>
+						<div class="col-sm-4 col-md-3">
+						  <div class="input-group date date-picker">
+						  <input type="text" name="date_ordered" value="" placeholder="Order Date" data-date-format="YYYY-MM-DD" id="input-date-ordered" class="form-control"><span class="input-group-btn">
+							<button type="button" class="btn btn-default "><i class="fa fa-calendar"></i></button>
+							</span></div>
+						</div>
+					  </div>
+					</fieldset>
+					<fieldset>
+					  <legend>Product Information</legend>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label" for="input-product">Product Name</label>
+						<div class="col-sm-10">
+						  <input type="text" name="product" value="" placeholder="Product Name" id="input-product" class="form-control">
+									  </div>
+					  </div>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label" for="input-model">Product Code</label>
+						<div class="col-sm-10">
+						  <input type="text" name="model" value="" placeholder="Product Code" id="input-model" class="form-control">
+									  </div>
+					  </div>
+					  <div class="form-group">
+						<label class="col-sm-2 control-label" for="input-quantity">Quantity</label>
+						<div class="col-sm-10">
+						  <input type="text" name="quantity" value="1" placeholder="Quantity" id="input-quantity" class="form-control">
+						</div>
+					  </div>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label">Reason for Return</label>
+						<div class="col-sm-10">
+													  <div class="radio">
+							<label>
+							  <input type="radio" name="return_reason_id" value="1">
+							  Dead On Arrival</label>
+						  </div>
+																	<div class="radio">
+							<label>
+							  <input type="radio" name="return_reason_id" value="4">
+							  Faulty, please supply details</label>
+						  </div>
+																	<div class="radio">
+							<label>
+							  <input type="radio" name="return_reason_id" value="3">
+							  Order Error</label>
+						  </div>
+																	<div class="radio">
+							<label>
+							  <input type="radio" name="return_reason_id" value="5">
+							  Other, please supply details</label>
+						  </div>
+																	<div class="radio">
+							<label>
+							  <input type="radio" name="return_reason_id" value="2">
+							  Received Wrong Item</label>
+						  </div>
+																  </div>
+					  </div>
+					  <div class="form-group required">
+						<label class="col-sm-2 control-label">Product is opened</label>
+						<div class="col-sm-10">
+						  <label class="radio-inline">
+											<input type="radio" name="opened" value="1">
+											Yes</label>
+						  <label class="radio-inline">
+											<input type="radio" name="opened" value="0" checked="checked">
+											No</label>
+						</div>
+					  </div>
+					  <div class="form-group">
+						<label class="col-sm-2 control-label" for="input-comment">Faulty or other details</label>
+						<div class="col-sm-10">
+						  <textarea name="comment" rows="10" placeholder="Faulty or other details" id="input-comment" class="form-control"></textarea>
+						</div>
+					  </div>
+							  </fieldset>
+							<div class="buttons clearfix">
+					  <div class="pull-left"><a href="#" class="btn btn-default">Back</a></div>
+					  <div class="pull-right">
+						<button type="submit" class="button continue"> Submit </button>
+					  </div>
+					</div>
+					</form>
+				  </div>
+				 </div>
+			 </div>			
+		    </div>
+		</div>
+	</div> <!-- main-container -->
+<!-- Featuer Box Starts Here -->
+	<div class="our-features-box">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-3 col-xs-12 col-sm-6">
+				<div class="feature-box first"> <span class="fa fa-truck"></span>
+				  <div class="content">
+					<h3>free shipping worldwide</h3>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-xs-12 col-sm-6">
+				<div class="feature-box"> <span class="fa fa-headphones"></span>
+				  <div class="content">
+					<h3>24x7 customer support</h3>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-xs-12 col-sm-6">
+				<div class="feature-box"> <span class="fa fa-share"></span>
+				  <div class="content">
+					<h3>returns and exchange</h3>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-xs-12 col-sm-6">
+				<div class="feature-box last"> <span class="fa fa-phone"></span>
+				  <div class="content">
+					<h3>Hotline  +(408) 394-7557</h3>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<!-- Featuer Box Ends Here -->
+		  </div>
+		</div>
+		
+	</div>
+	</body>
+</html>

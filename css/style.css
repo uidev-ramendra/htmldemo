@@ -1,0 +1,355 @@
+/*Table of content
+1.) Global css
+2.) Register Page css
+
+*/
+/*
+1.) Global css
+-----------------------*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+    color: #333;
+}
+.container{
+  max-width: 1260px;
+}
+.main-container {
+    min-height: 400px;
+    padding: 0px;
+    margin-top: 25px;
+}
+.page-title h1, .page-title h2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 0;
+    padding-bottom: 11px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: auto;
+    font-family: 'PT Serif', serif;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+legend {
+    font-size: 16px;
+    padding: 7px 0px;
+    font-weight: 600;
+}
+label {
+	font-size: 12px;
+    font-weight: normal;
+}
+div.required .control-label:before {
+    content: '* ';
+    color: #F00;
+    font-weight: bold;
+}
+select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
+    font-size: 12px;
+}
+.form-control, .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    margin-bottom: 4px;
+}
+button.btn, button.button, .btn, .button, .button.btn-continue, .button.login, button.btn-share, .button.create-account {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #d1d1d1;
+    color: #666;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 10px 12px;
+    text-transform: uppercase;
+}
+.buttons {
+    margin: 1em 0;
+}
+.button.continue{
+	background-color: #7aa93c;
+    color: #fff;
+    border: 1px #7aa93c solid;
+}
+ a {
+    color: #649a1d;
+}
+ a:hover {
+    color: #649a1d;
+    text-decoration: none;
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+}
+h3 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: auto;
+    margin-top: 0;
+    padding-bottom: 11px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "PT Serif", serif;
+}
+address {
+    display: block;
+    margin: auto;
+    font-style: normal;
+    line-height: 21px;
+    color: #999;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 15px;
+    border-bottom: 1px #eaeaea solid;
+    margin-bottom: 15px;
+}
+.btn {
+	border-radius: 0;
+}
+.btn:hover {
+    background: #7aa93c;
+    border: 1px solid #7aa93c;
+    color: #fff;
+    padding: 10px 12px;
+}
+/*
+1.) Register Page css
+--------------------------*/
+.breadcrumbs {
+    padding: 0px;
+    margin: 15px auto 5px;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    z-index: 10;
+    position: relative;
+}
+.breadcrumbs ul li {
+    list-style-type: none;
+    display: inline;
+}
+.breadcrumbs a {
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+}
+.breadcrumbs span {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    color: #ccc;
+    font-size: 11px;
+}
+.breadcrumbs li strong {
+    color: #000;
+    font-size: 11px;
+    font-weight: normal;
+}
+.col2-right-layout .col-main {
+    display: inline-block;
+    font-size: 13px;
+    width: 100%;
+}
+.my-account {
+    margin-bottom: 20px;
+    background:#fff;
+    padding: 0px;
+}
+.my-account .page-title {
+    padding: 0px 0px 10px;
+}
+.account-register legend{
+	 color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: auto;
+    margin-top: 0;
+    padding-bottom: 11px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "PT Serif", serif;
+ 	margin-bottom: 20px;
+}
+.our-features-box {
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+.our-features-box .feature-box {
+    overflow: hidden;
+    font-size: 13px;
+    text-align: center;
+    color: #333;
+    line-height: 1.4em;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    background: #fff;
+    border: 1px #eaeaea solid;
+    font-family: 'Roboto', sans-serif;
+}
+.our-features-box .feature-box span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 5px;
+    text-transform: none;
+    margin-right: 6px;
+    color: #7aa93c;
+}
+.our-features-box .feature-box .content {
+    display: inline-block;
+    text-align: left;
+    text-transform: none;
+    color: #fff;
+}
+.our-features-box .feature-box h3 {
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    color: #999;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.our-features-box .feature-box h3  a{
+	color: #999;
+}
+.account-logout .page-title h2, .account-login .page-title h2 {
+    margin-bottom: 0px;
+    padding: 0 0 15px;
+}
+.col2-set h2 {
+    font-size: 14px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.account-login .content p {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.account-login strong {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.button.create-account {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #d1d1d1;
+    color: #666;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 10px 12px;
+    text-transform: uppercase;
+}
+.account-login .content {
+    margin-top: 8px;
+    padding-top: 0px;
+}
+.account-login .col2-set .col-1 {
+    float: left;
+    text-align: left;
+    width: 49%;
+    min-height: 362px;
+    background: #fff;
+    border-right: 0px solid #eaeaea;
+    padding: 8px 0px;
+    margin-bottom: 15px;
+}
+.account-login .col2-set .col-2 {
+    float: right;
+    text-align: left;
+    width: 48%;
+    background: #fff;
+    padding: 25px 0;
+    margin-bottom: 25px;
+}
+.account-login .col2-set  label {
+	font-size:12px;
+	font-weight:400;
+}
+.my-account .page-title h2 {
+    padding: 0px;
+    margin: auto;
+	margin-bottom:10px;
+}
+.my-account .page-title {
+    padding: 0px 0px 10px;
+}
+.input-group-btn {
+    margin-left: 3px;
+}
+.input-group-btn .btn {
+    margin-left: 1px;
+    background: #7aa93c;
+    padding: 8px 12px;
+    border: 1px solid #7aa93c;
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: 1px;
+}
+.account-return-add legend {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-bottom: 11px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "PT Serif", serif;
+}
+@media (min-width: 992px) and (max-width: 1279px) {
+	.our-features-box .feature-box, .our-features-box .col-lg-3 .feature-box.last {
+	    margin-bottom: 5px;
+	    padding: 10px 0;
+	    text-align: center;
+	}
+}
+@media only screen and (max-width:991px) {
+	.feature-box {
+		margin-bottom:5px;
+		padding:5px;
+	}
+	.our-features-box .feature-box h3 {
+		padding-bottom: 0;
+	}
+}
+@media only screen and (max-width:479px) {
+	.account-login .col2-set .col-1 {
+	    min-height: inherit;
+	    width: 100%;
+	}
+	.account-login .col2-set .col-2 {
+	    float: left;
+	    margin-bottom: 25px;
+	    padding: 0;
+	    text-align: left;
+	    width: 100%;
+	}
+}

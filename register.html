@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>register</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="wrapper account-register">
+	<!-- breadcrumb starts -->
+<div class="breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ul>
+             	<li><a href="#">Home</a></li>
+              	<li><span>/</span><a href="#">Account</a></li>
+              	<li><span>/</span><strong>Register</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+	<!-- breadcrumb ends -->
+<div class="main-container col2-right-layout">
+<div class="main container">
+    <div class="row">
+    	<div id="content" class="col-sm-10">
+    	 <div class="col-main">
+     	<div class="my-account">
+        <div class="page-title">
+        <h2> Register Account</h2>
+      </div>
+      <p>If you already have an account with us, please login at the <a href="#">login page</a>.</p>
+      <form action="#" method="post"  class="form-horizontal">
+        <fieldset id="account">
+          <legend>Your Personal Details</legend>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-firstname">First Name</label>
+            	<div class="col-sm-10">
+              	<input type="text" name="firstname" value="" placeholder="First Name" id="input-firstname" class="form-control">
+             	</div>
+          </div>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-lastname">Last Name</label>
+            	<div class="col-sm-10">
+              	<input type="text" name="lastname" value="" placeholder="Last Name" id="input-lastname" class="form-control">
+                </div>
+          </div>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-email">E-Mail</label>
+            	<div class="col-sm-10">
+              	<input type="email" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+                </div>
+          </div>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-telephone">Telephone</label>
+            	<div class="col-sm-10">
+              	<input type="tel" name="telephone" value="" placeholder="Telephone" id="input-telephone" class="form-control">
+             	</div>
+          </div>
+          <div class="form-group">
+            	<label class="col-sm-2 control-label" for="input-fax">Fax</label>
+            	<div class="col-sm-10">
+              	<input type="text" name="fax" value="" placeholder="Fax" id="input-fax" class="form-control">
+            	</div>
+          </div>
+        </fieldset>
+        <fieldset id="address">
+          <legend>Your Address</legend>
+          <div class="form-group">
+            	<label class="col-sm-2 control-label" for="input-company">Company</label>
+            	<div class="col-sm-10">
+              	<input type="text" name="company" value="" placeholder="Company" id="input-company" class="form-control">
+            	</div>
+          </div>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-address-1">Address 1</label>
+            	<div class="col-sm-10">
+              	<input type="text" name="address_1" value="" placeholder="Address 1" id="input-address-1" class="form-control">
+                </div>
+          </div>
+          <div class="form-group">
+            	<label class="col-sm-2 control-label" for="input-address-2">Address 2</label>
+            	<div class="col-sm-10">
+              	<input type="text" name="address_2" value="" placeholder="Address 2" id="input-address-2" class="form-control">
+            	</div>
+          </div>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-city">City</label>
+            	<div class="col-sm-10">
+              	<input type="text" name="city" value="" placeholder="City" id="input-city" class="form-control">
+                </div>
+          </div>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-postcode">Post Code</label>
+            	<div class="col-sm-10">
+              	<input type="text" name="postcode" value="" placeholder="Post Code" id="input-postcode" class="form-control">
+                </div>
+          </div>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-country">Country</label>
+           	 	<div class="col-sm-10">
+              	<select name="country_id" id="input-country" class="form-control">
+                	<option value=""> --- Please Select --- </option>
+                    <option value="244">Aaland Islands</option>
+                    <option value="1">Afghanistan</option>
+                    <option value="2">Albania</option>
+                    <option value="3">Algeria</option>
+                    <option value="4">American Samoa</option>
+                    <option value="5">Andorra</option>
+                    <option value="6">Angola</option>
+                    <option value="7">Anguilla</option>
+                    <option value="8">Antarctica</option>
+                    <option value="9">Antigua and Barbuda</option>
+                    <option value="10">Argentina</option>
+                    </select> 
+                </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-zone">Region / State</label>
+            <div class="col-sm-10">
+              <select name="zone_id" id="input-zone" class="form-control">
+              <option value=""> --- Please Select --- </option>
+              <option value="3513">Aberdeen</option>
+              <option value="3514">Aberdeenshire</option>
+              <option value="3515">Anglesey</option>
+              <option value="3516">Angus</option>
+              <option value="3517">Argyll and Bute</option>
+              <option value="3518">Bedfordshire</option>
+              <option value="3519">Berkshire</option>
+              <option value="3520">Blaenau Gwent</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Your Password</legend>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-password">Password</label>
+            	<div class="col-sm-10">
+              	<input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control">
+                </div>
+          </div>
+          <div class="form-group required">
+            	<label class="col-sm-2 control-label" for="input-confirm">Password Confirm</label>
+            	<div class="col-sm-10">
+              	<input type="password" name="confirm" value="" placeholder="Password Confirm" id="input-confirm" class="form-control">
+                </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Newsletter</legend>
+          <div class="form-group">
+            	<label class="col-sm-2 control-label">Subscribe</label>
+            	<div class="col-sm-10">
+                <label class="radio-inline"><input type="radio" name="newsletter" value="1"> Yes</label>
+              	<label class="radio-inline"><input type="radio" name="newsletter" value="0" checked="checked">No</label>
+                </div>
+          </div>
+        </fieldset>
+          		<div class="buttons">
+          		<div class="pull-right">
+            	<button type="submit" class="button continue"> Continue </button>
+          		</div>
+        		</div>
+     </form>
+      </div>
+      </div>
+      </div>
+</div>
+</div>
+</div>
+<!-- Featuer Box Starts Here -->
+<div class="our-features-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-xs-12 col-sm-6">
+            <div class="feature-box first"> <span class="fa fa-truck"></span>
+              <div class="content">
+                <h3>free shipping worldwide</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12 col-sm-6">
+            <div class="feature-box"> <span class="fa fa-headphones"></span>
+              <div class="content">
+                <h3>24x7 customer support</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12 col-sm-6">
+            <div class="feature-box"> <span class="fa fa-share"></span>
+              <div class="content">
+                <h3>returns and exchange</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12 col-sm-6">
+            <div class="feature-box last"> <span class="fa fa-phone"></span>
+              <div class="content">
+                <h3>Hotline <a href="tel:4083947557">+(408) 394-7557</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Featuer Box Ends Here -->
+</div>
+</body>
+</html>
